@@ -14,8 +14,8 @@ Support, or "minor" repos have more flexibility in the process. Have a gander to
 
 ## Submitting a PR:
 
-- Branch from the tip of the active development branch (`develop` for major repos, `master` for minor repos.
-- Review the [go coding standards](https://github.com/okex/okchain/coding/blob/master/go/coding_standard.md). Follow them closely.
+- Branch from the tip of the active development branch (`develop` for major repos, `master` for minor repos).
+- Review the [go coding standards](https://github.com/okex/coding/blob/master/go/coding_standard.md). Follow them closely.
 - Make some (or one) commits, in logical order and with a useful commit comment.
 - Link to all relevant issues, if any.  The PR or the first issue should contain a detailed description.
 - Await response from other users, maintainers, and/or colleagues.
