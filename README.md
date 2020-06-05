@@ -1,6 +1,6 @@
 **Notice:** This repo has largely been left by the wayside and while it still has plenty of useful information, some of it should be considered out of date. We welcome any contributions aimed at improving the organization and content of this repo.
 
-Welcome to the coding resources repository for Tendermint. This README is intended as a guide for both for external contributors and new hires. The `CONTRIBUTING.md` of every repo should link to this repo. The files in this repo are an amalgamation from various places and any help consolidating/organizing them will be greatly appreciated.
+Welcome to the coding resources repository for OKChain. This README is intended as a guide for both for external contributors and new hires. The `CONTRIBUTING.md` of every repo should link to this repo. The files in this repo are an amalgamation from various places and any help consolidating/organizing them will be greatly appreciated.
 
 Most production repositories should have:
 
@@ -15,7 +15,7 @@ Support, or "minor" repos have more flexibility in the process. Have a gander to
 ## Submitting a PR:
 
 - Branch from the tip of the active development branch (`develop` for major repos, `master` for minor repos.
-- Review the [go coding standards](https://github.com/tendermint/coding/blob/master/go/coding_standard.md). Follow them closely.
+- Review the [go coding standards](https://github.com/okex/okchain/coding/blob/master/go/coding_standard.md). Follow them closely.
 - Make some (or one) commits, in logical order and with a useful commit comment.
 - Link to all relevant issues, if any.  The PR or the first issue should contain a detailed description.
 - Await response from other users, maintainers, and/or colleagues.
@@ -84,7 +84,6 @@ Use 'strict mode':
 
 The majority of relevant documentation is hosted at:
 
-- https://tendermint.com/docs/ and,
-- https://cosmos.network/docs/
+- https://okchain-docs.readthedocs.io/en/latest/
 
-which is produced from the docs directory in [Tendermint Core](https://github.com/tendermint/tendermint/tree/master/docs) and [Cosmos SDK](https://github.com/cosmos/cosmos-sdk/tree/master/docs), respectively. The `docs/README.md` in each of these repositories produces the landing page while the Table of Contents is generated from a configuration file found [here (Tendermint)](https://github.com/tendermint/tendermint.com/blob/develop/docs/.vuepress/config.js) and [here (SDK)](https://github.com/cosmos/cosmos.network/blob/develop/docs/.vuepress/config.js). Contact a member of the SRE team if you do not have access but require updating the ToC.
+which is produced from the docs directory in [OKChain documents](https://github.com/okex/okchain-docs), respectively. The `docs/README.md` in each of these repositories produces the landing page while the Table of Contents is generated from a configuration file found [here (Tendermint)](https://github.com/tendermint/tendermint.com/blob/develop/docs/.vuepress/config.js) and [here (SDK)](https://github.com/cosmos/cosmos.network/blob/develop/docs/.vuepress/config.js). Contact a member of the SRE team if you do not have access but require updating the ToC.
