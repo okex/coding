@@ -86,4 +86,4 @@ The majority of relevant documentation is hosted at:
 
 - https://okchain-docs.readthedocs.io/en/latest/
 
-which is produced from the docs directory in [OKChain documents](https://github.com/okex/okchain-docs), respectively. The `docs/README.md` in each of these repositories produces the landing page while the Table of Contents is generated from a configuration file found [here (Tendermint)](https://github.com/tendermint/tendermint.com/blob/develop/docs/.vuepress/config.js) and [here (SDK)](https://github.com/cosmos/cosmos.network/blob/develop/docs/.vuepress/config.js). Contact a member of the SRE team if you do not have access but require updating the ToC.
+which is produced from the docs directory in [OKChain documents](https://github.com/okex/okchain-docs), respectively. 
